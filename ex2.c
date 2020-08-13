@@ -1,6 +1,7 @@
 #include <unistd.h>
+#include "ex2.h"
 
-int main(void) 
+int ex(void) 
 {
   syscall(4, 1, "Hello\n", 6);
   return 0;
