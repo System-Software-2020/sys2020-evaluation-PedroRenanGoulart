@@ -1,7 +1,6 @@
-#include <unistd.h>
- 
+#include "ex2.h" 
 int main(void)
 {
-  write(1, "Hello\n", 6);
+  ex();
   return 0;
 }

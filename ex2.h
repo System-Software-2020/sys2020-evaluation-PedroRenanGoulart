@@ -1,3 +1,4 @@
+#include <unistd.h>
 #ifndef EX2_H
 #define EX2_H
 
